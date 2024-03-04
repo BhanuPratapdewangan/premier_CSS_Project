@@ -749,7 +749,6 @@ main video {
     width: 100%;
     height: fit-content;
     /* background-color: yellow; */
-    white-space: nowrap;
 }
 
 #page9 #marquee{
@@ -1021,29 +1020,30 @@ footer #copyright h3 {
         justify-content: flex-start;
         align-items: center;
         font-family: monument;
-        font-size: 8vw;
+        font-size: 10vw;
+        font-weight: 800;
         position: relative;
     }
 
     nav h3::after {
         position: absolute;
         content: '©';
-        font-size: 2.5vw;
-        right: -7%;
-        top: 26%;
-        font-weight: 100;
-        color: #000000ae;
+        font-size: 3.8vw;
+        right: 12%;
+        top: 30%;
+        font-weight: 600;
+        color: #00000093;
     }
 
     nav h3::before {
         position: absolute;
         content: 'model management';
-        font-size: 1.69vw;
-        right: 0%;
-        bottom: 25%;
-        font-weight: 100;
+        font-size: 2.1vw;
+        right: 20%;
+        bottom: 25%;x
+        font-weight: 600;
         letter-spacing: 0vw;
-        color: #000000ae;
+        color: #00000098;
     }
 
     nav span {
@@ -1597,53 +1597,42 @@ footer #copyright h3 {
         padding: 10vw 0vw;
     }
 
-    #page9 #marquee {
+    #page9 #marquee{
         width: 100%;
-        height: 10%;
+        /* height: 12%; */
+        /* background-color: red; */
         border-top: 2px solid #000;
         border-bottom: 2px solid #000;
+        white-space: nowrap;
         overflow-x: hidden;
         overflow-y: hidden;
-        padding: 0.4vw;
+        padding: 10px 0px;
     }
-
-    #page9 .wrapper {
+    #page9 #marquee h2{
         display: inline-block;
-        animation-name: scroll;
-        animation-duration: 8s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-delay: 1s;
-    }
-
-    #page9 #container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* background-color: red; */
-        margin-left: 2.5vw;
-    }
-
-    #page9 #container h3 {
-        font-size: 9vw;
+        font-size: 10vw;
+        font-family: monument;
+        font-weight: 900;
         text-transform: uppercase;
-        font-weight: 800;
-        position: relative;
-        word-spacing: 2.5vw;
+        letter-spacing: 0.2vw;
+        word-spacing: 1vw;
+        /* background-color: yellow; */
+        color: transparent;
+        -webkit-text-stroke: 2px #888;
+        margin-left: 16px;
+        animation-name: move;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear;
     }
-
-    #page9 #container h3::before {
-        content: "Premier Models 2024";
-        width: 100%;
-        height: 100%;
-        left: 0%;
-        top: 0%;
-        position: absolute;
-        color: #fff;
-        -webkit-text-stroke: 1px #00000074;
-        -webkit-text-stroke-width: 3px;
+    
+    @keyframes move {
+        from{
+            transform: translatex(0);
+        }
+        to{
+            transform: translateX(calc(-100% - 20px));
+        }
     }
 
     #page9a {
@@ -1762,9 +1751,9 @@ footer #copyright h3 {
         position: absolute;
         content: '©';
         font-size: 3.5vw;
-        right: -9%;
-        top: 32%;
-        font-weight: 100;
+        right: -10%;
+        top: 40%;
+        font-weight: 300;
         color: #000000ae;
     }
 
@@ -1774,7 +1763,7 @@ footer #copyright h3 {
         font-size: 1.69vw;
         right: -1.5%;
         bottom: 0%;
-        font-weight: 100;
+        font-weight: 500;
         letter-spacing: 0vw;
         color: #000000ae;
     }
