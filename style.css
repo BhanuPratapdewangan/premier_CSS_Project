@@ -64,7 +64,7 @@ nav h3::after {
     position: absolute;
     content: '©';
     font-size: 1.2vw;
-    right: 15%;
+    right: 28%;
     font-weight: 100;
     color: #000000ae;
 }
@@ -73,11 +73,11 @@ nav h3::before {
     position: absolute;
     content: 'model management';
     font-size: 0.6vw;
-    right: 20%;
+    right: 31%;
     bottom: 0%;
     font-weight: 100;
     letter-spacing: 0vw;
-    color: #000000ae;
+    color: #000000d5;
 }
 
 nav span {
