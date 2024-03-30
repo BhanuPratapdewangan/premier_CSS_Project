@@ -64,8 +64,8 @@ nav h3::after {
     position: absolute;
     content: '©';
     font-size: 1.2vw;
-    top: -8%;
-    right: 16%;
+    top: -4%;
+    right: 15.5%;
     font-weight: 100;
     color: #000000ae;
 }
