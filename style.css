@@ -991,7 +991,59 @@ footer #social-links a{
     height: 5%;
 }
 
+@media (max-width:884px){
 
+    nav #main-nav h3{
+        font-size: 3.8vw;
+    }
+    nav h3::after {
+        position: absolute;
+        content: '©';
+        font-size: 3vw;
+        right: 19.8%;
+        top: 9%;
+        font-weight: 600;
+        font-size: 1.8vw;
+        color: #16161693;
+    }
+
+    nav h3::before {
+        position: absolute;
+        content: 'model management';
+        font-size: 2.1vw;
+        right: 24.3%;
+        bottom: 1.2%;
+        font-size: 0.8vw;
+        font-weight: 600;
+        letter-spacing: 0vw;
+        color: #1211118d;
+    }
+
+
+    footer #left h2{
+        font-size: 4vw;
+    }
+    footer #left h2::after {
+        position: absolute;
+        content: '©';
+        font-size: 1.9vw;
+        right: -14%;
+        top: 25%;
+        font-weight: 400;
+        color: #1616169c;
+    }
+
+    footer #left h2::before {
+        position: absolute;
+        content: 'model management';
+        font-size: 0.8vw;
+        right: -4%;
+        bottom: 0%;
+        font-weight: 500;
+        letter-spacing: 0vw;
+        color: #000000ae;
+    }
+}
 
 @media (max-width:600px) {
     #container {
