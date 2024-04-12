@@ -64,8 +64,8 @@ nav h3::after {
     position: absolute;
     content: '©';
     font-size: 1.2vw;
-    top: -4%;
-    right: 15.5%;
+    top: 10%;
+    right: 29%;
     font-weight: 100;
     color: #000000ae;
 }
@@ -74,7 +74,7 @@ nav h3::before {
     position: absolute;
     content: 'model management';
     font-size: 0.6vw;
-    right: 19%;
+    right: 33%;
     bottom: 0%;
     font-weight: 100;
     letter-spacing: 0vw;
@@ -431,7 +431,7 @@ main video {
 
 #page4 {
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
     margin: 6vh 0vw;
     margin-left: 4vw;
     margin-right: 4vw;
@@ -899,7 +899,8 @@ footer #left h2::after {
     position: absolute;
     content: '©';
     font-size: 1.2vw;
-    right: -10%;
+    top: 35%;
+    right: -11%;
     font-weight: 100;
     color: #000000ae;
 }
@@ -908,11 +909,11 @@ footer #left h2::before {
     position: absolute;
     content: 'model management';
     font-size: 0.6vw;
-    right: -3%;
+    right: -2%;
     bottom: 0%;
     font-weight: 100;
     letter-spacing: 0vw;
-    color: #000000ae;
+    color: #000000d5;
 }
 
 footer #left h4 {
